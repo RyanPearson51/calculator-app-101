@@ -1,5 +1,30 @@
-body {
-  margin: 20% auto;
+
+
+#first-number{
+  grid-area: fn;
+  width: 50px;
+  height:50px;
+}
+
+#second-number{
+  grid-area: sn;
+}
+
+.signs{
+  grid-area: signs;
+}
+
+.others{
+  grid-area: others;
+}
+
+#result{
+  grid-area: result;
+}
+
+.container{
+  margin: 10% auto;
   width: 50%;
   height: 75%;
+  
 }
