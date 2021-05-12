@@ -1,17 +1,14 @@
-//function for displaying values
-function display(val)
-{
+
+function display(val) {
 document.getElementById("screen").value+=val
  }
-//function for evaluation
-function solve()
-{
+
+function solve() {
 let a = document.getElementById("screen").value
 let b = eval(a)
 document.getElementById("screen").value = b
 }
-//function for clearing the display
-function clr()
-{
+
+function clr() {
 document.getElementById("screen").value = ""
 }
